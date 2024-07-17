@@ -1,0 +1,14 @@
+main {
+    border: 1px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #ffffff30;
+    padding: 10px;
+    .thumbnail {
+        height: 100px;
+        width: 100%;
+        background-image: url('https://images.unsplash.com/photo-1490682143684-14369e18dce8?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bW91bnRhaW5zJTIwc3Vuc2V0fGVufDB8fDB8fHww');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}

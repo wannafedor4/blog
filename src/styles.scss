@@ -1,0 +1,65 @@
+$font-family_1: 'Inter';
+$font-family_2: 'Poppins';
+
+$color-text: #ddf9f9;
+$color-background: #110405;
+$color-primary: #e4b887;
+$color-secondary: #86641e;
+$color-accent: #d5be41;
+
+@import "https://fonts.googleapis.com/css?family=Poppins:700|Inter:400";
+
+body {
+	font-family: $font-family_1;
+	font-weight: 400;
+    background-color: $color-background;
+    color: $color-text;
+    margin: 20px;
+}
+h1 {
+	font-family: $font-family_2;
+	font-weight: 700;
+	font-size: 3.366rem;
+	padding: 0;
+	margin: 0;
+}
+h2 {
+	font-family: $font-family_2;
+	font-weight: 700;
+	font-size: 2.525rem;
+	padding: 0;
+	margin: 0;
+}
+h3 {
+	font-family: $font-family_2;
+	font-weight: 700;
+	font-size: 1.894rem;
+	padding: 0;
+	margin: 0;
+}
+h4 {
+	font-family: $font-family_2;
+	font-weight: 700;
+	font-size: 1.421rem;
+	padding: 0;
+	margin: 0;
+}
+h5 {
+	font-family: $font-family_2;
+	font-weight: 700;
+	font-size: 1.066rem;
+	padding: 0;
+	margin: 0;
+}
+html {
+	font-size: 100%;
+}
+p {
+	padding: 0;
+	margin: 0;
+}
+small {
+	font-size: 0.600rem;
+	padding: 0;
+	margin: 0;
+}
